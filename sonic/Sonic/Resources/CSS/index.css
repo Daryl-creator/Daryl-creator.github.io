@@ -1,0 +1,32 @@
+.sonic {
+   height: 250px;
+   width: 40%;
+   margin-top: 10px;
+}
+
+.banner { 
+    background-color: rgba(65, 67, 189, 0.582);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.abilities {
+    text-align: center;
+}
+#list li {
+    text-align: center;
+    list-style-type: none;
+}
+
+#sonic {
+    color: rgb(235, 111, 54);
+    font-size: 25px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+h2 {
+    color:rgb(235, 111, 54);
+}
