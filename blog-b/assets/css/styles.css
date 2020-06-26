@@ -1,0 +1,267 @@
+@media (min-width:1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+  }
+}
+
+#profile-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 19px;
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+}
+
+.eda {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logos {
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#subtitle {
+  text-align: center;
+}
+
+.col-lg-6.bottom-border {
+  border: 1px solid white;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.btn.btn-link.btn-block.arrow-button {
+  color: rgb(255,255,255);
+  font-family: Montserrat, sans-serif;
+}
+
+#subtitle {
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 38px;
+}
+
+#title {
+  font-size: 75px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+#navcol-1 {
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background-image: url("../../assets/img/BackgroundDesktop.jpg");
+  }
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/img/backgroundmobile.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(0px) brightness(93%) contrast(110%) saturate(103%) sepia(0%);
+}
+
+body {
+  background-color: rgb(255,255,255);
+}
+
+.social-icons i {
+  font-size: 32px;
+  display: inline-block;
+  color: #757980;
+  margin: 0 10px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #c8ced7;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 60px;
+}
+
+@media (max-width:767px) {
+  .social-icons {
+    padding: 50px 0;
+  }
+}
+
+.social-icons {
+  color: #313437;
+  background-color: #fff;
+  text-align: center;
+  padding: 70px 0;
+}
+
+.projects-horizontal .item .description {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+@media (max-width:991px) {
+  .projects-horizontal .item .name {
+    margin-top: 22px;
+  }
+}
+
+.projects-horizontal .item .name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .projects-horizontal .item {
+    padding-top: 40px;
+    min-height: 160px;
+  }
+}
+
+.projects-horizontal .item {
+  padding-top: 60px;
+  min-height: 160px;
+}
+
+.projects-horizontal .projects {
+  padding-bottom: 40px;
+}
+
+.projects-horizontal .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 10px;
+}
+
+@media (max-width:767px) {
+  .projects-horizontal h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.projects-horizontal h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+.projects-horizontal p {
+  color: #7d8285;
+}
+
+.projects-horizontal {
+  color: #313437;
+  background-color: #fff;
+}
+
+.projects-clean .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.projects-clean .item .name {
+  font-weight: bold;
+  margin-top: 28px;
+  margin-bottom: 8px;
+  color: inherit;
+}
+
+.projects-clean .item {
+  text-align: center;
+  padding-top: 50px;
+  min-height: 425px;
+}
+
+.projects-clean .projects {
+  padding-bottom: 40px;
+}
+
+.projects-clean .intro p {
+  margin-bottom: 0;
+}
+
+.projects-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width:767px) {
+  .projects-clean h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.projects-clean h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+.projects-clean p {
+  color: #7d8285;
+}
+
+.projects-clean {
+  color: #313437;
+  background-color: #fff;
+}
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+

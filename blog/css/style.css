@@ -1,5 +1,5 @@
 /*trying to center text*/
-h1, h2, h3, p
+h1, h2, h3, p, ul, footer
 {
     text-align: center;
 }
