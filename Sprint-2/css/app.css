@@ -16,10 +16,10 @@ element.style {
 
 
 
-#hero {
+#title {
     width: 100%;
     height: 100vh;
-    background-image: url("C:\Users\daryl\dev-academy\Daryl-creator.github.io\Sprint-2\images\desktopbackground.jpg");
+    background-image: url("C:\Users\daryl\dev-academy\Daryl-creator.github.io\Sprint-2\images\BackgroundDesktop.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
