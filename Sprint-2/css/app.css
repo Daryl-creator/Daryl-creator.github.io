@@ -2,6 +2,20 @@
     background-color: white;
 }
 
+element.style {
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 197px;
+  background-color: #172a40;
+  height: 97px;
+  background-size: 80%;
+  opacity: 0.74;
+  filter: grayscale(0%) saturate(75%);
+}
+
+
+
 #hero {
     width: 100%;
     height: 100vh;
