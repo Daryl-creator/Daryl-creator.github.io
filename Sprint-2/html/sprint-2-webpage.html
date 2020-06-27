@@ -1,21 +1,23 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <title>Pilot to Developer</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,300i,400,600,600i,700,700i">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Testimonials.css">
+    <link rel="stylesheet" href="css\app.css">
 </head>
 
-<body style="background-color: rgb(255,255,255);color: rgb(255,255,255);">
+<body id="body">
     <section class="d-flex d-xl-flex flex-column justify-content-between" id="hero">
         <div id="title-top">
             <nav class="navbar navbar-light navbar-expand-md">
@@ -45,6 +47,8 @@
             <h1 style="font-family: Montserrat, sans-serif;font-style: italic;">Find out more!</h1><i class="icon ion-arrow-down-c" style="font-size: 26px;color: rgb(255,255,255);"></i>
         </div>
     </section>
+
+    <!--subtitle page-->
     <div class="container">
         <div class="row">
             <div class="col">
@@ -60,103 +64,98 @@
             </div>
         </div>
         <div class="row">
-            <div class="col"><button class="btn btn-link btn-block arrow-button" type="button" style="color: rgb(255,255,255);"></button></div>
+            <div class="col"><button class="btn btn-link btn-block arrow-button" type="button" style="color:  rgb(0,0,0) ;"></button></div>
         </div>
     </div>
 
     <!--about me-->
-    <section id="about-me">
+    <section>
+        <h1 class="text-center" id="title" style="font-family: Montserrat, sans-serif;color: rgb(0,0,0);font-weight: bold;font-size: 64px;">About me</h1>
+        <img src="images\profile.jpg" alt="profile-pic" class="img-thumbnail">
         <h1 class="text-center subtitle" style="background-color: #ffffff;font-family: Montserrat, sans-serif;font-style: oblique;color: rgb(0,0,0);margin: 13px;padding: 8px;">About me</h1><img class="img-fluid justify-content-xl-center" id="profile-picture" style="background-image: url(&quot;assets/img/profile.jpg&quot;);background-position: center;font-size: 15px;background-size: cover;">
         <h5 class="text-center" style="color: rgb(0,0,0);font-family: Montserrat, sans-serif;padding: 5px;height: 65px;margin: 12px;font-size: 16px;">My name is Daryl, I’m an Airline Pilot acquiring skills to become a Web Developer.<br><br><br></h5>
         <p class="text-center" style="color: rgb(0,0,0);font-family: Montserrat, sans-serif;font-weight: normal;font-style: italic;font-size: 16px;padding: 38px;">The current industry climate has given me an opportunity to expand my skills beyond aviation. In April 2020, I started my first coding tutorial and found a strong interest. With that, I decided to pursue a new life chapter..<br><br></p>
-        <h5 class="text-center"
-            style="color: rgb(0,0,0);font-family: Montserrat, sans-serif;">My history<br><br></h5><img class="eda" src="assets/img/EDA-square-logo-uai-258x258.png" width="200" height="200">
-        <p class="text-center" style="color: rgb(0,0,0);font-family: Montserrat, sans-serif;font-style: italic;"><br><strong>Aspiring Web Developer</strong><br>(2020-)<br>Pursuing my interest in Web Development and sharing my learning experience.<br><br></p><img id="logos" src="assets/img/logos.png">
+        
+     <!--my history-->   
+        <h5 class="text-center" style="color: rgb(0,0,0);font-family: Montserrat, sans-serif;">My history<br><br></h5>
+        <img class="history-logos" src="images\EDA-square-logo-uai-258x258.png" width="200" height="200">
+        <p class="text-center" style="color: rgb(0,0,0);font-family: Montserrat, sans-serif;font-style: italic;"><br><strong>Aspiring Web Developer</strong><br>(2020-)<br>Pursuing my interest in Web Development and sharing my learning experience.<br><br></p>
+        <img class="history-logos" src="images\logos.png">
         <p class="text-center" style="color: rgb(0,0,0);font-family: Montserrat, sans-serif;font-style: italic;"><br><strong>Airline Pilot, Human Factors Facilitator, Flight and Ground Instructor</strong><br>(2005 - )<br>I started my flying training in 2005, from there I have held roles in General Aviation to International Airline flying. Been involved with
             team facilitation, development and been a flight and ground school instructor.<br><br></p>
     </section>
 
-    <!--blog-->
-    <section id="blog">
-    <div class="projects-horizontal">
-        <div class="container">
-            <div class="intro">
-                <h1 class="text-center" style="font-family: Montserrat, sans-serif;font-style: italic;">Blog</h1>
-                <p class="text-center">Follow my Technical and Core Skills Blog along my Learning Journey!</p>
-            </div>
-            <div class="row projects">
-                <div class="col-sm-6 item">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/javascript.jpg"></a></div>
-                        <div class="col">
-                            <h3 class="name">Tech Skills Sprint 2&nbsp;</h3>
-                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+     <!--blog-->
+     <section id="blog">
+        <div class="projects-horizontal">
+            <div class="container">
+                <div class="intro">
+                    <h1 class="text-center" style="font-family: Montserrat, sans-serif;font-style: italic;">Blog</h1>
+                    <p class="text-center">Follow my Technical and Core Skills Blog along my Learning Journey!</p>
+                </div>
+                <div class="row projects">
+                    <div class="col-sm-6 item">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="images\javascript.jpg"></a></div>
+                            <div class="col">
+                                <button type="button" class="btn btn-secondary">Tech Blog Sprint 1</button>
+                                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-6 item">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/human%20skills.jpg"></a></div>
-                        <div class="col">
-                            <h3 class="name">Core Skills Sprint 2</h3>
-                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                    <div class="col-sm-6 item">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="images\human skills.jpg"></a></div>
+                            <div class="col">
+                                <button type="button" class="btn btn-secondary">Core Blog Sprint 1</button>
+                                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-6 item">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/javascript.jpg"></a></div>
-                        <div class="col">
-                            <h3 class="name">Tech Skills Sprint 1</h3>
-                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                    <div class="col-sm-6 item">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="images\javascript.jpg"></a></div>
+                            <div class="col">
+                                <button type="button" class="btn btn-secondary">Tech Blog Sprint 2</button>
+                                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-6 item">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/human%20skills.jpg"></a></div>
-                        <div class="col">
-                            <h3 class="name">Core Skills Sprint 1</h3>
-                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                    <div class="col-sm-6 item">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="images\human skills.jpg"></a></div>
+                            <div class="col">
+                                <button type="button" class="btn btn-secondary">Core Blog Sprint 2</button>
+                                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    </section>
+        </section>
 
-    <!--contact information-->
-    <section id="contact">
-        <h1 class="text-center" style="color: rgb(0,0,0);font-family: Montserrat, sans-serif;font-style: italic;padding: 18px;">Get In Touch With Me!</h1>
-    </section>
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <p class="text-center" style="color: rgb(0,0,0);font-family: Montserrat, sans-serif;">(+64) 21 196 1272&nbsp;</p>
-                </div>
-                <div class="col-md-6" style="color: rgb(0,0,0);">
-                    <p class="text-center" style="font-family: Montserrat, sans-serif;">darylchen.w.h@gmail.com</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="social-icons"><a href="#"><i class="icon ion-social-linkedin"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-github"></i></a><a href="#"><i class="icon ion-social-youtube"></i></a></div>
-    
-   <!--footer--> 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <p class="text-center" style="color: rgb(0,0,0);"><i class="far fa-copyright"></i>&nbsp;Daryl Chen 2020</p>
+        <!--contact information-->
+        <section id="contact">
+            <h1 class="text-center" style="color: rgb(0,0,0);font-family: Montserrat, sans-serif;font-style: italic;padding: 18px;">Contact Me!</h1>
+        </section>
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="text-center" style="color: rgb(0,0,0);font-family: Montserrat, sans-serif;">(+64) 21 196 1272&nbsp;</p>
+                    </div>
+                    <div class="col-md-6" style="color: rgb(0,0,0);">
+                        <p class="text-center" style="font-family: Montserrat, sans-serif;">darylchen.w.h@gmail.com</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
-</body>
-
+       
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 </html>
