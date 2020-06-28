@@ -19,18 +19,22 @@ element.style {
 #title {
     width: 100%;
     height: 100vh;
-    background-image: url("../images/BackgroundDesktop.jpg")
+   background-image: url("../images/mobilebackground.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     filter: blur(0px) brightness(93%) contrast(110%) saturate(103%) sepia(0%);
   }
   
+
+    
+
   @media (min-width: 768px) {
     #title {
+     
       background-image: url("../images/BackgroundDesktop.jpg");
     }
-  }
+    
       
   .img-thumbnail {
     display: block;
