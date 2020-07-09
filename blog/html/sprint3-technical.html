@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Javascript and the DOM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,300i,400,600,600i,700,700i">
+    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <script src="../js/javascriptplaybook.js"></script>
+
+
+    <!--blog css--> 
+    
+    <title>Javascript and the DOM</title>
+  </head>
+  <body>
+    
+    <!-- Brand logo -->
+    <section>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+            <img src="..\images\logo.png" width="200" height="100" alt="" loading="lazy">
+            </a>
+        </nav>
+    </section>
+
+     <!--navigation bar-->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Pilot to Developer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="..\index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+
+    <section class="background-image">
+        
+        <div class="container">
+            <img src="../images/JSDOM.jpg" class="img-fluid" alt="Responsive image"><br><br>
+            <!-- Title -->
+            <p class="h1">Javascript and the Document Object Model (DOM)</p><br><br><br>
+          </div>
+    </section>
+
+    <!-- Blog Post -->
+    <section>
+        
+        <div class="container">
+            <p class="h2">Javascript and it's relationship to HTML and CSS</p><br><br>
+            <p class="h6">Javascript is the interactivity of a webpage. It is a scripting language that allows you to dynamically update content, control multimedia, animate images, etc. It allows you to do a lot on a webpage which i won’t describe in detail in this blog post as it can lead down to very deep rabbit holes!</p><br>
+            
+
+            <p class="h2">What is Control flow</p><br><br>
+            <div class="text-center">
+                <img src="../images/control flow.png" class="rounded" alt="control-flow">
+              </div><br><br>
+            <p class="h6">Control flow is the order in which the computer executes statements in a script.
+                So in the above example, the computer will check the if statement first to see if the parentheses is true, if it is then it will return the first statement, if it is not then it will return the second.An example is how you prep the aircraft for flight. You need to check the weather, file the flight plan, do the preflight etc. In a specific order, if a condition isn’t met (you haven’t filed a flight plan) you need to meet that condition before you can proceed.
+                </p><br><br>
+            
+            <p class="h2">What are Loops?</p><br><br>
+            <div class="text-center">
+                <img src="../images/loops.png" class="rounded" alt="loops">
+              </div><br><br>
+            <p class="h6">JavaScript loops run a block of code repeatedly - until a certain condition is met. We often hear the term “iterating” over something like an array, this is the same as looping. There are different types of loops such as:</p><br>
+            <ul class="list-group">
+                <li class="list-group-item">for - loops through a block of code a number of times.</li>
+                <li class="list-group-item">for/in - loops through the properties of an object.</li>
+                <li class="list-group-item">for/of - loops through the values of an iterable object.</li>
+                <li class="list-group-item">while - loops through a block of code while a specified condition is true.</li>
+              </ul><br><br>
+              <p class="h6">Think of this as the instrument scan, while maneuvering the aircraft say through a medium turn, you need to ‘loop’ through all the other performance factors such as altitude and speed until a condition is met (the heading you need to roll out on)</p><br><br>
+           
+
+              <p class="h2">What are Arrays?</p><br><br>
+              <div class="text-center">
+                  <img src="../images/array.png" class="rounded" alt="array">
+                </div><br><br>
+              <p class="h6">An array is a data structure that contains a group of elements, think of it as a list. Typically these elements are all of the same data type, such as an integer or string but can be mixed. Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched.</p><br><br>
+        
+              <p class="h2">What are Objects?</p><br><br>
+              <div class="text-center">
+                  <img src="../images/Object.png" class="rounded" alt="object">
+                </div><br><br>
+                  <p class="h6">An object is a collection of properties, and a property is an association between a name (or key) and a value in “key:value” pairs. </p><br><br>
+            
+                  <p class="h2">Accessing data in an Object vs an Array</p><br><br>
+              <div class="text-center">
+                  <img src="../images/objectVsArrayAccess.png" class="rounded" alt="objectVsArrayAccess">
+                </div><br><br>
+                  <p class="h6">To access an element in an object, you use dot or bracket notation. To access an element in an array, you use integer indexing. </p><br><br>
+                  
+                  <p class="h2">What are functions and why they are useful</p><br><br>
+                  <div class="text-center">
+                      <img src="../images/function.png" class="rounded" alt="function">
+                    </div><br><br>
+                      <p class="h6">A function is a reusable block of code that allows you to input specific values. To specify the values you need to call or invoke the function by typing the name along with the desired values spaced by commas. Functions are useful because of reusability. Once a function is defined, it can be used over and over and over again. Another reason is abstraction. In order to use a particular function you need to know the following things:</p><br><br> 
+                      <ul class="list-group">
+                        <li class="list-group-item">1.The name of the function;</li>
+                        <li class="list-group-item">2. What the function does;</li>
+                        <li class="list-group-item">3. What arguments you must give to the function; and</li>
+                        <li class="list-group-item">4. What kind of result the function returns.</li>
+                      </ul><br><br>
+                      <p class="h6">But you don’t need to know how the function works inside, in a similar way that when you drive your car, you don’t need to know how everything operates under the hood</p><br><br> 
+                      
+                      <p class="h2">What is the DOM?</p><br><br>
+              <div class="text-center">
+                  <img src="../images/dom.png" class="rounded" alt="DOM">
+                </div><br><br>
+                  <p class="h6">The DOM is the glue that holds everything together. It is an object representation of the HTML document. Think of it as the rivets, bolts, fittings etc which holds everything together in an aircraft. Everything that makes up the DOM are known as NODES. The WINDOW object deals with with browser - finding the URL, using the scrollbar etc. The DOCUMENT object deals with everything in your HTML document, any changes made to the DOM via JavaScript is reflected in what gets shown in the browser.</p><br><br>
+                      
+                  <p class="h2">What are DevTools?</p><br><br>
+                  <div class="text-center">
+                      <img src="../images/devtools.png" class="rounded" alt="devTools">
+                    </div><br><br>
+                      <p class="h6">Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. DevTools can help you edit and see changes in real time and diagnose problems quickly. This helps increase the speed at which you can build webpages.</p><br><br>    
+                  
+                  
+        </div>
+        
+    </section>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
