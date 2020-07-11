@@ -1,5 +1,9 @@
-function myDonut(num1, num2) {
-	return  'I have had ' + num1 + ' donuts at ' + num2 + ' o\'clock today!';
-}
+var food = {
+	name: 'donut',
+	ingredients: ['flour', 'eggs', 'milk', 'something else'],
+	use: 'to eat',
+	reaction: 'yum'
+	
+};
 
-console.log(myDonut(10, 5));
+console.log(food);
