@@ -1,9 +1,11 @@
-var food = {
-	name: 'donut',
-	ingredients: ['flour', 'eggs', 'milk', 'something else'],
-	use: 'to eat',
-	reaction: 'yum'
-	
-};
+var aircraft = {
+	name: 'SUPER SPEEDO',
+	model: 'fantastamania 1171',
+	engine: ['space warp company - xes34', 7]
+}
 
-console.log(food);
+function getTheEngine (obj, key) {
+	return obj[key];
+}
+
+console.log(getTheEngine(aircraft, 'engine'))
