@@ -19,15 +19,19 @@ element.style {
 #title {
     width: 100%;
     height: 100vh;
-    background-image: url("../images/mobilebackground.jpg");
+    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     filter: blur(0px) brightness(93%) contrast(110%) saturate(103%) sepia(0%);
   }
   
-
-    
+/* media queries */
+  @media (min-width: 320px) {
+    #title {
+     
+      background-image: url("../images/ac-small.jpg");
+    }
 
   @media (min-width: 768px) {
     #title {
@@ -35,6 +39,11 @@ element.style {
       background-image: url("../images/BackgroundDesktop.jpg");
     }
     
+    @media (min-width: 1200px) {
+      #title {
+       
+        background-image: url("../images/mobilebackground.jpg");
+      }
       
   .img-thumbnail {
     display: block;
